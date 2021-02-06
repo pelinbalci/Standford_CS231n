@@ -10,8 +10,9 @@ We want more flexibility.
 - Machine translation: sequence of words --> sequence of words (many to many)
 - Video classification on frame lever ( many to many)
 
-Input - > RNN --|
-         ^ -----|
+
+    Input - > RNN --|
+             ^ -----|
 
     
     h_t = fw(h_t-1, x_t)  --> input vector * old hidden state
